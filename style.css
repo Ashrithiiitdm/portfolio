@@ -1,1 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   /* background-color: black;*/
+}
 
+body{
+    font-family: 'Poppins',sans-serif;
+}
+
+.navigation{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    padding: 0;
+    background-color: #fac50f;
+}
+
+.nav__link{
+    text-decoration: none;
+    color: black;
+}
+
+.nav__item{
+    margin: 15px;
+}

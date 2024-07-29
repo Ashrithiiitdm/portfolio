@@ -1,0 +1,207 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape GANDE ASHRITH} \\ \vspace{1pt}
+    \small +91 9014324405 $|$ \href{mailto:ashrith0629@gmail.com}{\underline{Gmail}} $|$ 
+    \href{https://www.linkedin.com/in/ashrith-gande-658773291}{\underline{Linkedin}} $|$
+    \href{https://github.com/Ashrithiiitdm}{\underline{github.com/Ashrith}}
+\end{center}
+
+
+%-----------SUMMARY-----------
+\section{Summary}
+\vspace{5pt}
+    Dedicated Computer Science & Engineering with a focus on Artificial Intelligence. Experienced in developing scalable and distributed software systems using languages such as \textbf{C/C++, Python, and JavaScript}. Proficient in working with \textbf{Unix/Linux} environments, \textbf{data structures, algorithms} and \textbf{software development}.Demonstrated ability to work on diverse projects including \textbf{machine learning , natural language processing} and large software systems. Actively engaged in computer science-related extracurricular activities and tech projects, showcasing a strong commitment to personal and professional development.
+
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {IIITDM Kancheepuram}{Chennai, Tamil Nadu}
+      {Bachelor of Technology in Computer Science with Artificial Intelligence}{Nov. 2022 -- June 2026}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Hackathon-Hackfest}{}
+      {NMAMIT}{Bengaluru}
+      \resumeItemListStart
+        \resumeItem{Designed a web-based solution for comprehensive inventory management where users can add various material types (raw materials, finished products, etc.) while maintaining detailed cost records.}
+        \resumeItem{Frontend was crafted using \textbf{HTML, CSS} for a good user interface and \textbf{Javascript} ensuring responsiveness to the web-application.} 
+        \resumeItem{Backend was designed using  \textbf{MySQL} as the primary database and the \textbf{Flask} framework for efficient routing and request handling.}
+        \resumeItemListEnd
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+    
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Traffic Sign Recognition} $|$ \emph{Python, Keras, Tensorflow, OpenCV}}{}
+        \resumeItemListStart
+            \resumeItem{Engineered a \textbf{supervised deep learning model} for identifying traffic signs under adverse lighting and weather conditions.}
+            \resumeItem{Collected diverse datasets containing images of various traffic signs for model training and evaluation from \textbf{Kaggle} and Google Images.}
+            \resumeItem{Implemented comprehensive data pre-processing techniques, including data cleaning, normalization, and feature extraction using libraries like \textbf{scikitlearn}, \textbf{OpenCV} etc.}
+            \resumeItem{Split the dataset into training and testing sets to train the model.}
+            \resumeItem{Developed the model using \textbf{convolutional neural networks} using \textbf{Keras, TensorFlow.}}
+        \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Comprehensive Document to PDF Converter} $|$ \emph{Html, Css, Javascript, Node.js, Express.js, Hopscotch.io}}{}
+          \resumeItemListStart
+            \resumeItem{Designed a web application enabling users to convert various file formats into Portable Document Format (PDF).}
+            \resumeItem{Developed the frontend using \textbf{HTML, CSS, Javascript} for a responsive user interface.}
+            \resumeItem{Utilized \textbf{Node.js} as the runtime environment for the server-side operations.}
+            \resumeItem{Used node packages such as \textbf{multer} for storage handling and file uploads and  \textbf{libreoffice-converter} , \textbf{pdf-lib} to convert the given document into a PDF.}
+            \resumeItem{Implemented \textbf{Express.js} for route and request handling.}
+            \resumeItem{Managed dependencies and build processes with \textbf{npm} as the package manager.}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: C/C++, Python, MySQL, JavaScript, HTML,CSS} \\
+     \textbf{Backend Frameworks}{: Node.js, Express.js, Flask} \\
+     \textbf{Developer Tools}{: Git, Google Cloud Platform, VS Code, Hopscotch.io} \\
+     \textbf{Libraries}{: pandas, NumPy, Matplotlib, Keras, TensorFlow} \\
+     \textbf{Package managers}{: apt,pip,npm} 
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
